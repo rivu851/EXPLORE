@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Travel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Wanderlust Travel</h1>
+            <ul>
+                <li><a href="#" class="filter-btn active" data-filter="all">All</a></li>
+                <li><a href="#" class="filter-btn" data-filter="beach">Beaches</a></li>
+                <li><a href="#" class="filter-btn" data-filter="mountain">Mountains</a></li>
+                <li><a href="#" class="filter-btn" data-filter="city">Cities</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <h1 style="color: aliceblue;">What kind of place You want to explore? </h1>
+        </div>
+        <div class="destinations"></div>
+        <table>
+         <tr>
+           <td>     
+           
+             <div class="destination-card" data-type="beach">
+                <img src="/placeholder.svg?height=200&width=300" alt="Tropical Beach">
+                <h2>Tropical Paradise</h2>
+                <p>Experience crystal clear waters and white sandy beaches.</p>
+             </div>
+          </td> 
+          <td> 
+            <div class="destination-card" data-type="mountain">
+                <img src="moun.jpeg" alt="Mountain Range">
+                <h2>Mountain Retreat</h2>
+                <p>Breathtaking views and invigorating hiking trails await.</p>
+            </div>
+           </td>
+           <td>
+            <div class="destination-card" data-type="city">
+                <img src="city.png" alt="City Skyline">
+                <h2>Urban Adventure</h2>
+                <p>Immerse yourself in culture, cuisine, and city lights.</p>
+            </div>
+           </td>
+           </tr>
+           <tr>
+            <td>
+            <div class="destination-card" data-type="beach">
+                <img src="/placeholder.svg?height=200&width=300" alt="Secluded Cove">
+                <h2>Hidden Cove</h2>
+                <p>Discover a secluded beach paradise off the beaten path.</p>
+            </div>
+        </td>
+         <td>
+            <div class="destination-card" data-type="mountain">
+                <img src="/placeholder.svg?height=200&width=300" alt="Alpine Lake">
+                <h2>Alpine Wonder</h2>
+                <p>Serene lakes and majestic peaks create unforgettable memories.</p>
+            </div>
+        </td>
+        <td>
+            <div class="destination-card" data-type="city">
+                <img src="his.jpeg" alt="Historic City">
+                <h2>Historic Charm</h2>
+                <p>Walk through centuries of history in picturesque streets.</p>
+            </div>
+        </td>
+        </tr>
+        </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Wanderlust Travel. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
